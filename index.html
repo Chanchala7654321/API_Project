@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main class="page">
+        <section class="card">
+            <header class="card__head">
+                <p class="eyebrow">Student API</p>
+                <h1>This Is New Student</h1>
+                <p class="sub">Click the button to fetch student data and see it appear below.</p>
+            </header>
+            <div class="data">
+                <div class="data__row">
+                    <span>User ID</span>
+                    <p id="userId" class="value">—</p>
+                </div>
+                <div class="data__row">
+                    <span>Post ID</span>
+                    <p id="id" class="value">—</p>
+                </div>
+                <div class="data__row">
+                    <span>Title</span>
+                    <p id="title" class="value">—</p>
+                </div>
+                <div class="data__row">
+                    <span>Body</span>
+                    <p id="body" class="value">—</p>
+                </div>
+            </div>
+            <button class="primary" onclick="studentdata()">Fetch Student</button>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
